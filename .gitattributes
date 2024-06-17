@@ -1,6 +1,3 @@
-# Specify text files
-* text=auto
+* text=auto    # 모든 파일에 대해 text 모드를 사용
+*.txt text eol=lf   # 특정 확장자의 파일에 대해 LF 줄 바꿈 사용
 
-# Specify specific file types
-*.cs text eol=lf
-*.meta text eol=lf
