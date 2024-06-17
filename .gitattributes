@@ -1,2 +1,6 @@
-# Auto detect text files and perform LF normalization
+# Specify text files
 * text=auto
+
+# Specify specific file types
+*.cs text eol=lf
+*.meta text eol=lf
